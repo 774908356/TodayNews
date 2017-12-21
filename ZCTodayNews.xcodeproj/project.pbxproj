@@ -10,12 +10,16 @@
 		145439A41FC80E0500D821D0 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145439A31FC80E0500D821D0 /* VideoCutter.swift */; };
 		145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145439A51FC80F5200D821D0 /* VideoSplashViewController.swift */; };
 		1456228B1FBEC414005B9FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456228A1FBEC414005B9FE2 /* AppDelegate.swift */; };
-		1456228D1FBEC414005B9FE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456228C1FBEC414005B9FE2 /* ViewController.swift */; };
-		145622901FBEC414005B9FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1456228E1FBEC414005B9FE2 /* Main.storyboard */; };
 		145622921FBEC414005B9FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145622911FBEC414005B9FE2 /* Assets.xcassets */; };
 		145622951FBEC414005B9FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145622931FBEC414005B9FE2 /* LaunchScreen.storyboard */; };
 		145622A01FBEC414005B9FE2 /* ZCTodayNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456229F1FBEC414005B9FE2 /* ZCTodayNewsTests.swift */; };
 		145622AB1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */; };
+		14F140841FEB9B410000DD0D /* ZCAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140831FEB9B410000DD0D /* ZCAPI.swift */; };
+		14F140861FEB9D250000DD0D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140851FEB9D250000DD0D /* Global.swift */; };
+		14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140891FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift */; };
+		14F1408D1FEBBCB00000DD0D /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F1408C1FEBBCB00000DD0D /* DispatchQueueExtension.swift */; };
+		14F1408F1FEBC9DA0000DD0D /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F1408E1FEBC9DA0000DD0D /* UIDeviceExtension.swift */; };
+		14F140921FEBCC060000DD0D /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140911FEBCC060000DD0D /* UNoticeBar.swift */; };
 		FFE0B7374713F9650DF81C69 /* Pods_ZCTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96039DA314EECE00E470724 /* Pods_ZCTodayNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +47,6 @@
 		145439A51FC80F5200D821D0 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
 		145622871FBEC414005B9FE2 /* ZCTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1456228A1FBEC414005B9FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1456228C1FBEC414005B9FE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1456228F1FBEC414005B9FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		145622911FBEC414005B9FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145622941FBEC414005B9FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145622961FBEC414005B9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,12 @@
 		145622A61FBEC414005B9FE2 /* ZCTodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCTodayNewsUITests.swift; sourceTree = "<group>"; };
 		145622AC1FBEC414005B9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F140831FEB9B410000DD0D /* ZCAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCAPI.swift; sourceTree = "<group>"; };
+		14F140851FEB9D250000DD0D /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		14F140891FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemFixSpace.swift; sourceTree = "<group>"; };
+		14F1408C1FEBBCB00000DD0D /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		14F1408E1FEBC9DA0000DD0D /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		14F140911FEBCC060000DD0D /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
 		9BBFF420704D5FD9E4138245 /* Pods-ZCTodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCTodayNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCTodayNews/Pods-ZCTodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		B96039DA314EECE00E470724 /* Pods_ZCTodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCTodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,9 +128,11 @@
 		145622891FBEC414005B9FE2 /* ZCTodayNews */ = {
 			isa = PBXGroup;
 			children = (
+				14F1408B1FEBBC890000DD0D /* Extension */,
+				14F140871FEBAD8B0000DD0D /* Component */,
+				14F140821FEB9AD70000DD0D /* API */,
 				1456228A1FBEC414005B9FE2 /* AppDelegate.swift */,
-				1456228C1FBEC414005B9FE2 /* ViewController.swift */,
-				1456228E1FBEC414005B9FE2 /* Main.storyboard */,
+				14F140851FEB9D250000DD0D /* Global.swift */,
 				145622911FBEC414005B9FE2 /* Assets.xcassets */,
 				145622931FBEC414005B9FE2 /* LaunchScreen.storyboard */,
 				145622961FBEC414005B9FE2 /* Info.plist */,
@@ -146,6 +156,48 @@
 				145622AC1FBEC414005B9FE2 /* Info.plist */,
 			);
 			path = ZCTodayNewsUITests;
+			sourceTree = "<group>";
+		};
+		14F140821FEB9AD70000DD0D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				14F140831FEB9B410000DD0D /* ZCAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		14F140871FEBAD8B0000DD0D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				14F140901FEBCC060000DD0D /* NoticeBar */,
+				14F140881FEBADCC0000DD0D /* BarButtonItem */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		14F140881FEBADCC0000DD0D /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				14F140891FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift */,
+			);
+			path = BarButtonItem;
+			sourceTree = "<group>";
+		};
+		14F1408B1FEBBC890000DD0D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14F1408C1FEBBCB00000DD0D /* DispatchQueueExtension.swift */,
+				14F1408E1FEBC9DA0000DD0D /* UIDeviceExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		14F140901FEBCC060000DD0D /* NoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				14F140911FEBCC060000DD0D /* UNoticeBar.swift */,
+			);
+			path = NoticeBar;
 			sourceTree = "<group>";
 		};
 		8F163A9720C9227F7F5DDBB2 /* Frameworks */ = {
@@ -277,7 +329,6 @@
 			files = (
 				145622951FBEC414005B9FE2 /* LaunchScreen.storyboard in Resources */,
 				145622921FBEC414005B9FE2 /* Assets.xcassets in Resources */,
-				145622901FBEC414005B9FE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,9 +434,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				145439A41FC80E0500D821D0 /* VideoCutter.swift in Sources */,
-				1456228D1FBEC414005B9FE2 /* ViewController.swift in Sources */,
 				1456228B1FBEC414005B9FE2 /* AppDelegate.swift in Sources */,
 				145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */,
+				14F140861FEB9D250000DD0D /* Global.swift in Sources */,
+				14F140841FEB9B410000DD0D /* ZCAPI.swift in Sources */,
+				14F140921FEBCC060000DD0D /* UNoticeBar.swift in Sources */,
+				14F1408F1FEBC9DA0000DD0D /* UIDeviceExtension.swift in Sources */,
+				14F1408D1FEBBCB00000DD0D /* DispatchQueueExtension.swift in Sources */,
+				14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,14 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1456228E1FBEC414005B9FE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1456228F1FBEC414005B9FE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		145622931FBEC414005B9FE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
