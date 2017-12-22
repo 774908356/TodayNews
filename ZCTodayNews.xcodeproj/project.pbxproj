@@ -10,6 +10,16 @@
 		144FD9D81FEC9E5100B71967 /* UBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9D71FEC9E5100B71967 /* UBaseViewController.swift */; };
 		144FD9DA1FECA26A00B71967 /* UNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9D91FECA26A00B71967 /* UNavigationController.swift */; };
 		144FD9DC1FECAFAB00B71967 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9DB1FECAFAB00B71967 /* UIColorExtensions.swift */; };
+		144FD9DE1FECDA4E00B71967 /* UTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9DD1FECDA4E00B71967 /* UTabBarController.swift */; };
+		144FD9E01FECDBCC00B71967 /* UPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9DF1FECDBCC00B71967 /* UPageViewController.swift */; };
+		144FD9E51FECDDA200B71967 /* UHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9E41FECDDA200B71967 /* UHomeViewController.swift */; };
+		144FD9ED1FECEA0000B71967 /* UCateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9EC1FECEA0000B71967 /* UCateListViewController.swift */; };
+		144FD9EF1FECEBB800B71967 /* UBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9EE1FECEBB800B71967 /* UBookViewController.swift */; };
+		144FD9F11FECF03200B71967 /* UMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9F01FECF03200B71967 /* UMineViewController.swift */; };
+		144FD9F31FED0E7E00B71967 /* UBoutiqueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9F21FED0E7E00B71967 /* UBoutiqueListViewController.swift */; };
+		144FD9F51FED0E9F00B71967 /* UVIPListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9F41FED0E9F00B71967 /* UVIPListViewController.swift */; };
+		144FD9F71FED0EB500B71967 /* USubscibeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9F61FED0EB500B71967 /* USubscibeListViewController.swift */; };
+		144FD9F91FED0ECA00B71967 /* URankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144FD9F81FED0ECA00B71967 /* URankListViewController.swift */; };
 		145439A41FC80E0500D821D0 /* VideoCutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145439A31FC80E0500D821D0 /* VideoCutter.swift */; };
 		145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145439A51FC80F5200D821D0 /* VideoSplashViewController.swift */; };
 		1456228B1FBEC414005B9FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456228A1FBEC414005B9FE2 /* AppDelegate.swift */; };
@@ -48,6 +58,16 @@
 		144FD9D71FEC9E5100B71967 /* UBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseViewController.swift; sourceTree = "<group>"; };
 		144FD9D91FECA26A00B71967 /* UNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNavigationController.swift; sourceTree = "<group>"; };
 		144FD9DB1FECAFAB00B71967 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		144FD9DD1FECDA4E00B71967 /* UTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTabBarController.swift; sourceTree = "<group>"; };
+		144FD9DF1FECDBCC00B71967 /* UPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPageViewController.swift; sourceTree = "<group>"; };
+		144FD9E41FECDDA200B71967 /* UHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeViewController.swift; sourceTree = "<group>"; };
+		144FD9EC1FECEA0000B71967 /* UCateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCateListViewController.swift; sourceTree = "<group>"; };
+		144FD9EE1FECEBB800B71967 /* UBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBookViewController.swift; sourceTree = "<group>"; };
+		144FD9F01FECF03200B71967 /* UMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UMineViewController.swift; path = ZCTodayNews/Procedure/Book/UMineViewController.swift; sourceTree = SOURCE_ROOT; };
+		144FD9F21FED0E7E00B71967 /* UBoutiqueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBoutiqueListViewController.swift; sourceTree = "<group>"; };
+		144FD9F41FED0E9F00B71967 /* UVIPListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIPListViewController.swift; sourceTree = "<group>"; };
+		144FD9F61FED0EB500B71967 /* USubscibeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USubscibeListViewController.swift; sourceTree = "<group>"; };
+		144FD9F81FED0ECA00B71967 /* URankListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankListViewController.swift; sourceTree = "<group>"; };
 		145439A21FC8057D00D821D0 /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		145439A31FC80E0500D821D0 /* VideoCutter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCutter.swift; sourceTree = "<group>"; };
 		145439A51FC80F5200D821D0 /* VideoSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplashViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +121,12 @@
 		144FD9D31FEC9D4C00B71967 /* Procedure */ = {
 			isa = PBXGroup;
 			children = (
+				144FD9EA1FECE72200B71967 /* Search */,
+				144FD9E91FECE70900B71967 /* Mine */,
+				144FD9E81FECE6F500B71967 /* Comic */,
+				144FD9E71FECE6E700B71967 /* Book */,
+				144FD9E61FECE64300B71967 /* Cate */,
+				144FD9E11FECDCE500B71967 /* Home */,
 				144FD9D41FEC9D8800B71967 /* Base */,
 				14F140851FEB9D250000DD0D /* Global.swift */,
 				1456228A1FBEC414005B9FE2 /* AppDelegate.swift */,
@@ -129,8 +155,85 @@
 			children = (
 				144FD9D71FEC9E5100B71967 /* UBaseViewController.swift */,
 				144FD9D91FECA26A00B71967 /* UNavigationController.swift */,
+				144FD9DD1FECDA4E00B71967 /* UTabBarController.swift */,
+				144FD9DF1FECDBCC00B71967 /* UPageViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		144FD9E11FECDCE500B71967 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9E31FECDD2300B71967 /* ViewController */,
+				144FD9E21FECDD1100B71967 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		144FD9E21FECDD1100B71967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		144FD9E31FECDD2300B71967 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9E41FECDDA200B71967 /* UHomeViewController.swift */,
+				144FD9F21FED0E7E00B71967 /* UBoutiqueListViewController.swift */,
+				144FD9F41FED0E9F00B71967 /* UVIPListViewController.swift */,
+				144FD9F61FED0EB500B71967 /* USubscibeListViewController.swift */,
+				144FD9F81FED0ECA00B71967 /* URankListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		144FD9E61FECE64300B71967 /* Cate */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9EB1FECE9AB00B71967 /* VC */,
+			);
+			path = Cate;
+			sourceTree = "<group>";
+		};
+		144FD9E71FECE6E700B71967 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9EE1FECEBB800B71967 /* UBookViewController.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		144FD9E81FECE6F500B71967 /* Comic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comic;
+			sourceTree = "<group>";
+		};
+		144FD9E91FECE70900B71967 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9F01FECF03200B71967 /* UMineViewController.swift */,
+			);
+			name = Mine;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		144FD9EA1FECE72200B71967 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		144FD9EB1FECE9AB00B71967 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				144FD9EC1FECEA0000B71967 /* UCateListViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		145439A11FC8056D00D821D0 /* Files */ = {
@@ -474,18 +577,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144FD9E51FECDDA200B71967 /* UHomeViewController.swift in Sources */,
 				144FD9DA1FECA26A00B71967 /* UNavigationController.swift in Sources */,
 				145439A41FC80E0500D821D0 /* VideoCutter.swift in Sources */,
+				144FD9F71FED0EB500B71967 /* USubscibeListViewController.swift in Sources */,
 				1456228B1FBEC414005B9FE2 /* AppDelegate.swift in Sources */,
 				144FD9DC1FECAFAB00B71967 /* UIColorExtensions.swift in Sources */,
+				144FD9ED1FECEA0000B71967 /* UCateListViewController.swift in Sources */,
+				144FD9DE1FECDA4E00B71967 /* UTabBarController.swift in Sources */,
+				144FD9F91FED0ECA00B71967 /* URankListViewController.swift in Sources */,
 				145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */,
 				14F140861FEB9D250000DD0D /* Global.swift in Sources */,
 				14F140841FEB9B410000DD0D /* ZCAPI.swift in Sources */,
+				144FD9F51FED0E9F00B71967 /* UVIPListViewController.swift in Sources */,
 				144FD9D81FEC9E5100B71967 /* UBaseViewController.swift in Sources */,
+				144FD9EF1FECEBB800B71967 /* UBookViewController.swift in Sources */,
+				144FD9E01FECDBCC00B71967 /* UPageViewController.swift in Sources */,
+				144FD9F31FED0E7E00B71967 /* UBoutiqueListViewController.swift in Sources */,
 				14F140921FEBCC060000DD0D /* UNoticeBar.swift in Sources */,
 				14F1408F1FEBC9DA0000DD0D /* UIDeviceExtension.swift in Sources */,
 				14F1408D1FEBBCB00000DD0D /* DispatchQueueExtension.swift in Sources */,
 				14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */,
+				144FD9F11FECF03200B71967 /* UMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

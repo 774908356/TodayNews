@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         configBase()
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
-        //window?.rootViewController =
+        window?.rootViewController = UTabBarController()
         window?.makeKeyAndVisible()
         
         return true
