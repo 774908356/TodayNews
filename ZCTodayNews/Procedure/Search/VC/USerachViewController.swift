@@ -1,32 +1,21 @@
 //
-//  UHomeViewController.swift
+//  USerachViewController.swift
 //  ZCTodayNews
 //
-//  Created by chaozhang on 2017/12/22.
+//  Created by chaozhang on 2017/12/23.
 //  Copyright © 2017年 ZZC. All rights reserved.
 //
 
 import UIKit
 
-class UHomeViewController: UPageViewController {
+class USerachViewController: UBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-    override func configNavigationBar() {
-        super.configNavigationBar()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "nav_search"),
-                                                            target: self,
-                                                            action: #selector(selectAction))
-    }
-    
-    @objc private func selectAction() {
-        navigationController?.pushViewController(USerachViewController(), animated: true)
-    }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

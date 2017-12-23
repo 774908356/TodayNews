@@ -161,9 +161,34 @@ extension ZCApi: TargetType {
         return nil
     }
     
+}
+
+extension Response {
     
+    func mapModel<T:HandyJSON>(_ type: T.Type)  throws -> T {
+        let jsonString = String(data: data, encoding: .utf8)
+        guard let model = JSONDeserializer<T>.deserializeFrom(json: jsonString) else {
+            throw MoyaError.jsonMapping(self)
+        }
+        return model
+    }
     
-    
+}
+
+extension MoyaProvider {
+    @discardableResult
+    open func request<T:HandyJSON>(_ target:Target,
+                                   model:T.Type,
+                                   completion:((_ ReturnData:T?) -> Void)?) -> Cancellable? {
+        return request(target, completion: { (result) in
+            guard let completion = completion else { return }
+            guard let returnData = try? result.value?.mapModel(ResponseData<T>.self) else{
+                completion(nil)
+                return
+            }
+            completion(returnData?.data?.returnData)
+        })
+    }
     
     
 }

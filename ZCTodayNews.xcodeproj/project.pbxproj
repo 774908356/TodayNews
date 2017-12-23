@@ -27,6 +27,10 @@
 		145622951FBEC414005B9FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145622931FBEC414005B9FE2 /* LaunchScreen.storyboard */; };
 		145622A01FBEC414005B9FE2 /* ZCTodayNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456229F1FBEC414005B9FE2 /* ZCTodayNewsTests.swift */; };
 		145622AB1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */; };
+		14D6BDAB1FEE05E9000FFE52 /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAA1FEE05E9000FFE52 /* UModel.swift */; };
+		14D6BDAE1FEE07F8000FFE52 /* USerachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAD1FEE07F8000FFE52 /* USerachViewController.swift */; };
+		14D6BDB01FEE0A04000FFE52 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAF1FEE0A04000FFE52 /* UIBarButtonItem.swift */; };
+		14D6BDB31FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDB21FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift */; };
 		14F140841FEB9B410000DD0D /* ZCAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140831FEB9B410000DD0D /* ZCAPI.swift */; };
 		14F140861FEB9D250000DD0D /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140851FEB9D250000DD0D /* Global.swift */; };
 		14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F140891FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift */; };
@@ -82,6 +86,10 @@
 		145622A61FBEC414005B9FE2 /* ZCTodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCTodayNewsUITests.swift; sourceTree = "<group>"; };
 		145622AC1FBEC414005B9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D6BDAA1FEE05E9000FFE52 /* UModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UModel.swift; sourceTree = "<group>"; };
+		14D6BDAD1FEE07F8000FFE52 /* USerachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USerachViewController.swift; sourceTree = "<group>"; };
+		14D6BDAF1FEE0A04000FFE52 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		14D6BDB21FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
 		14F140831FEB9B410000DD0D /* ZCAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCAPI.swift; sourceTree = "<group>"; };
 		14F140851FEB9D250000DD0D /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		14F140891FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemFixSpace.swift; sourceTree = "<group>"; };
@@ -224,6 +232,7 @@
 		144FD9EA1FECE72200B71967 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				14D6BDAC1FEE07C3000FFE52 /* VC */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -272,6 +281,7 @@
 		145622891FBEC414005B9FE2 /* ZCTodayNews */ = {
 			isa = PBXGroup;
 			children = (
+				14D6BDA91FEE05B7000FFE52 /* Model */,
 				14F1408B1FEBBC890000DD0D /* Extension */,
 				14F140871FEBAD8B0000DD0D /* Component */,
 				14F140821FEB9AD70000DD0D /* API */,
@@ -301,6 +311,30 @@
 			path = ZCTodayNewsUITests;
 			sourceTree = "<group>";
 		};
+		14D6BDA91FEE05B7000FFE52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14D6BDAA1FEE05E9000FFE52 /* UModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14D6BDAC1FEE07C3000FFE52 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				14D6BDAD1FEE07F8000FFE52 /* USerachViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		14D6BDB11FEE5C93000FFE52 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				14D6BDB21FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
 		14F140821FEB9AD70000DD0D /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +346,7 @@
 		14F140871FEBAD8B0000DD0D /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				14D6BDB11FEE5C93000FFE52 /* CollectionViewLayout */,
 				14F140901FEBCC060000DD0D /* NoticeBar */,
 				14F140881FEBADCC0000DD0D /* BarButtonItem */,
 			);
@@ -332,6 +367,7 @@
 				14F1408C1FEBBCB00000DD0D /* DispatchQueueExtension.swift */,
 				14F1408E1FEBC9DA0000DD0D /* UIDeviceExtension.swift */,
 				144FD9DB1FECAFAB00B71967 /* UIColorExtensions.swift */,
+				14D6BDAF1FEE0A04000FFE52 /* UIBarButtonItem.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -578,6 +614,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144FD9E51FECDDA200B71967 /* UHomeViewController.swift in Sources */,
+				14D6BDB01FEE0A04000FFE52 /* UIBarButtonItem.swift in Sources */,
 				144FD9DA1FECA26A00B71967 /* UNavigationController.swift in Sources */,
 				145439A41FC80E0500D821D0 /* VideoCutter.swift in Sources */,
 				144FD9F71FED0EB500B71967 /* USubscibeListViewController.swift in Sources */,
@@ -585,6 +622,7 @@
 				144FD9DC1FECAFAB00B71967 /* UIColorExtensions.swift in Sources */,
 				144FD9ED1FECEA0000B71967 /* UCateListViewController.swift in Sources */,
 				144FD9DE1FECDA4E00B71967 /* UTabBarController.swift in Sources */,
+				14D6BDAE1FEE07F8000FFE52 /* USerachViewController.swift in Sources */,
 				144FD9F91FED0ECA00B71967 /* URankListViewController.swift in Sources */,
 				145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */,
 				14F140861FEB9D250000DD0D /* Global.swift in Sources */,
@@ -596,8 +634,10 @@
 				144FD9F31FED0E7E00B71967 /* UBoutiqueListViewController.swift in Sources */,
 				14F140921FEBCC060000DD0D /* UNoticeBar.swift in Sources */,
 				14F1408F1FEBC9DA0000DD0D /* UIDeviceExtension.swift in Sources */,
+				14D6BDB31FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift in Sources */,
 				14F1408D1FEBBCB00000DD0D /* DispatchQueueExtension.swift in Sources */,
 				14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */,
+				14D6BDAB1FEE05E9000FFE52 /* UModel.swift in Sources */,
 				144FD9F11FECF03200B71967 /* UMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
