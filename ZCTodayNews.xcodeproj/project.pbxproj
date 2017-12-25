@@ -27,6 +27,9 @@
 		145622951FBEC414005B9FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145622931FBEC414005B9FE2 /* LaunchScreen.storyboard */; };
 		145622A01FBEC414005B9FE2 /* ZCTodayNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1456229F1FBEC414005B9FE2 /* ZCTodayNewsTests.swift */; };
 		145622AB1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */; };
+		14D228B61FF097EC00C963C6 /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D228B51FF097EC00C963C6 /* UCollectionViewSectionBackgroundLayout.swift */; };
+		14D228B81FF0F36500C963C6 /* UBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D228B71FF0F36500C963C6 /* UBaseCollectionViewCell.swift */; };
+		14D228BA1FF0F8B900C963C6 /* UComicCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D228B91FF0F8B900C963C6 /* UComicCCell.swift */; };
 		14D6BDAB1FEE05E9000FFE52 /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAA1FEE05E9000FFE52 /* UModel.swift */; };
 		14D6BDAE1FEE07F8000FFE52 /* USerachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAD1FEE07F8000FFE52 /* USerachViewController.swift */; };
 		14D6BDB01FEE0A04000FFE52 /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6BDAF1FEE0A04000FFE52 /* UIBarButtonItem.swift */; };
@@ -86,6 +89,9 @@
 		145622A61FBEC414005B9FE2 /* ZCTodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		145622AA1FBEC414005B9FE2 /* ZCTodayNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCTodayNewsUITests.swift; sourceTree = "<group>"; };
 		145622AC1FBEC414005B9FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D228B51FF097EC00C963C6 /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
+		14D228B71FF0F36500C963C6 /* UBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		14D228B91FF0F8B900C963C6 /* UComicCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicCCell.swift; sourceTree = "<group>"; };
 		14D6BDAA1FEE05E9000FFE52 /* UModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UModel.swift; sourceTree = "<group>"; };
 		14D6BDAD1FEE07F8000FFE52 /* USerachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USerachViewController.swift; sourceTree = "<group>"; };
 		14D6BDAF1FEE0A04000FFE52 /* UIBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
@@ -154,6 +160,7 @@
 		144FD9D51FEC9D9D00B71967 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14D228B71FF0F36500C963C6 /* UBaseCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 		144FD9E21FECDD1100B71967 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14D228B91FF0F8B900C963C6 /* UComicCCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				14D6BDB21FEE5D22000FFE52 /* UCollectionViewAlignedLayout.swift */,
+				14D228B51FF097EC00C963C6 /* UCollectionViewSectionBackgroundLayout.swift */,
 			);
 			path = CollectionViewLayout;
 			sourceTree = "<group>";
@@ -625,6 +634,8 @@
 				14D6BDAE1FEE07F8000FFE52 /* USerachViewController.swift in Sources */,
 				144FD9F91FED0ECA00B71967 /* URankListViewController.swift in Sources */,
 				145439A61FC80F5200D821D0 /* VideoSplashViewController.swift in Sources */,
+				14D228B61FF097EC00C963C6 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
+				14D228BA1FF0F8B900C963C6 /* UComicCCell.swift in Sources */,
 				14F140861FEB9D250000DD0D /* Global.swift in Sources */,
 				14F140841FEB9B410000DD0D /* ZCAPI.swift in Sources */,
 				144FD9F51FED0E9F00B71967 /* UVIPListViewController.swift in Sources */,
@@ -639,6 +650,7 @@
 				14F1408A1FEBADFE0000DD0D /* UIBarButtonItemFixSpace.swift in Sources */,
 				14D6BDAB1FEE05E9000FFE52 /* UModel.swift in Sources */,
 				144FD9F11FECF03200B71967 /* UMineViewController.swift in Sources */,
+				14D228B81FF0F36500C963C6 /* UBaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

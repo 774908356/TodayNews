@@ -4,7 +4,6 @@
 //
 //  Created by chaozhang on 2017/12/22.
 //  Copyright © 2017年 ZZC. All rights reserved.
-//
 
 import UIKit
 import LLCycleScrollView
@@ -34,14 +33,24 @@ class UBoutiqueListViewController: UBaseViewController {
     
     private lazy var collectionView: UICollectionView = {
         
-       // let lt = 
+        let lt = UCollectionViewSectionBackgroundLayout()
+        lt.minimumInteritemSpacing = 5
+        lt.minimumLineSpacing = 10
+        let cw = UICollectionView(frame: CGRect.zero, collectionViewLayout: lt)
         
+        cw.backgroundColor = UIColor.background
+        cw.delegate = self
+       // cw.dataSource = self
+        cw.alwaysBounceVertical = true
+        
+        
+        return cw
     }()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        loadData(false)
         // Do any additional setup after loading the view.
     }
 
@@ -57,9 +66,7 @@ class UBoutiqueListViewController: UBaseViewController {
             self?.galleryItems = returnData?.galleryItems ?? []
             self?.TextItems = returnData?.textItems ?? []
             self?.comicLists = returnData?.comicLists ?? []
-            
             self?.bannerView.imagePaths = self?.galleryItems.map{ $0.cover! } ?? []
-            
             
         }
         
@@ -69,14 +76,22 @@ class UBoutiqueListViewController: UBaseViewController {
     }
     
     override func configUI() {
+        
+        view.addSubview(collectionView)
+        collectionView.snp.makeConstraints{
+            $0.edges.equalToSuperview()
+            
+        }
+        
         view.addSubview(bannerView)
         bannerView.snp.makeConstraints{
             $0.top.left.right.equalToSuperview()
-           // $0.height.equalTo(<#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#>)
-            
-            
+            $0.height.equalTo(collectionView.contentInset.top)
+
         }
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -95,3 +110,16 @@ class UBoutiqueListViewController: UBaseViewController {
     */
 
 }
+
+extension UBoutiqueListViewController: UCollectionViewSectionBackgroundLayoutDelegateLayout {
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView == collectionView {
+            bannerView.snp.updateConstraints{
+                $0.top.equalToSuperview().offset(min(0, -(scrollView.contentOffset.y + scrollView.contentInset.top)))
+            }
+        }
+    }
+    
+}
+
